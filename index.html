@@ -8,12 +8,23 @@
 </head>
 <body>
    <h1>About Me</h1>
-   <h2>Introduction</h2>
+
+   <!-- I added the div elements and id attributes when i first understood their importance. They serve as references when you need a link or later when styling the page, you can refer to them to target the element you want to style -->
+   <div id="menu">
+    <a href="#intro">Introduction</a>
+    <a href="#interests">My Interests</a>
+    <a href="#contact">Follow me on</a>
+   </div>
+  
+   <h2 id="intro">Introduction</h2>
    <!-- Image added and resized. Final resizing to be added when we start styling it with css -->
    <img src="/images/David-Blue-resized.jpg" alt="David's formal picture">
     <p>Hello. My name is David Nzayituriki. I am currently studying Front-End development with Azubi Africa.I started with no experience in web development, so this page is my first execercise in web development. I always wanted to have experience with computers besides using them for my daily work. I always wanted to have something to do with what's happening behind the scenes. Therefore, I discovered that html is the right place to start.</p>
+    <p>In this paragraph I am learning how to use the sup and sub elements to write things like 95<sup>o</sup> C and water molecule, aka, H<sub>2</sub>O.</p>
+
+    <a href="#menu">back to menu page</a>
     
-    <h2>My Interests</h2>
+    <h2 id="interests">My Interests</h2>
         <p>Here are a few things that I enjoy doing. If you read on, we may share some common interests</p>
 
     <ul>
@@ -35,11 +46,20 @@
         <li>Traveling</li>
         <li>Hiking</li>   
     </ul>
+
+    <a href="#menu">back to menu page</a>
+
     <!-- This is a links area. More elaborations on it to follow as we start to add some css -->
-    <p>Follow me on:</p>
+    <p id="contact">Follow me on:</p>
     <a href="https://www.facebook.com/nzayituriki.david.79" target="_blank"><img src="/images/facebook.png" alt="facebook logo"></a>
     <a href="https://github.com/dnzayit" target="_blank"><img src="/images/github.jpg" alt="github logo"></a>
     <a href="https://linkedin.com/in/dnzayituriki" target="_blank"><img src="/images/linkedin.png" alt="linkedin logo"></a>
 
+    <a href="#menu">back to menu page</a>
+
+    <!-- to add a copyright, you just press the & and give it a letter prompt. Here the needed prompt is copy-->
+ <footer>
+    <p>&copy;2022. All rights reserved</p>
+ </footer>
 </body>
 </html>
